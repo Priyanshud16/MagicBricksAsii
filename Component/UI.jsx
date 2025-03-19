@@ -38,7 +38,10 @@ const MagicBricksLayout = () => {
           </div>
 
           <button className="bg-white text-red-600 px-4 py-1 rounded-full text-sm font-semibold">
-            Post Property <span className="text-xs bg-yellow-400 p-1 rounded-[7px]">FREE</span>
+            Post Property{" "}
+            <span className="text-xs bg-yellow-400 p-1 rounded-[7px]">
+              FREE
+            </span>
           </button>
         </div>
 
@@ -97,7 +100,7 @@ const MagicBricksLayout = () => {
               <IoIosArrowDown />
             </span>
           </div>
-          
+
           <li className="relative group cursor-pointer flex items-center">
             MB Advice{" "}
             <span className="bg-yellow-400 text-xs font-bold text-white px-1 ml-1 rounded">
@@ -166,7 +169,8 @@ const MagicBricksLayout = () => {
       {/* PG & Hostel Listings */}
       <div className="max-w-6xl mx-auto px-4">
         <h3 className="text-xl font-bold mb-4 text-center">
-          Find a PG & Hostel in Dehradun Away from Home
+          Find a PG & Hostel in Dehradun Away from{" "}
+          <i className="font-black text-xl">Home</i>
         </h3>
 
         {/* Tabs */}
